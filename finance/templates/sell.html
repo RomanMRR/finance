@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+
+{% block main %}
+
+    <form action="/sell" method="POST">
+        <div class="form-group">
+            <select class="form-control" name="symbol">
+                <option disabled selected value>Symbol</option>
+                {% for row in stock %}
+
+                <option>{{ row[0].upper() }}</option>
+
+                {% endfor %}
+            </select>
+        </div>
+        <div class="form-group">
+            <input autocomplete="off" class="form-control" min="0" name="shares" placeholder="Shares" type="number">
+        </div>
+        <button class="btn btn-primary" type="submit">Sell</buton>
+    </form>
+
+{% endblock %}
