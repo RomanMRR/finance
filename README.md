@@ -2,16 +2,16 @@
 :heavy_dollar_sign:Веб-приложение, позволяющее пользователям покупать и продавать акции. Пользователи могут регистрироваться на сайте и пополнять свой портфель.
 
 На сервисе предусмотрена аутентификация пользователей:
-![Вход пользователя](demonstration/Registration.gif)
+![Вход пользователя](finance/demonstration/Registration.gif)
 
 Возможность просматривать цены акций:
-![Просмотр цен акций](demonstration/Viewing_shares.gif)
+![Просмотр цен акций](finance/demonstration/Viewing_shares.gif)
 
 Возможность покупать акции:
-![Покупка акций](demonstration/Purchase_of_shares.gif)
+![Покупка акций](finance/demonstration/Purchase_of_shares.gif)
 
 Возможность продавать акции:
-![Покупка акций](demonstration/Sale_of_shares.gif)
+![Покупка акций](finance/demonstration/Sale_of_shares.gif)
 
 
 
