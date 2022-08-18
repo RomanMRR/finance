@@ -22,7 +22,7 @@
 
 - Скопируйте данный репозиторий командой `git clone https://github.com/RomanMRR/finance.git`
 - `cd finance/finance`
-- `export API_KEY=your_key` (Ключ API можно получить на сайте [пример](iexcloud.io/cloud-login#/register/))
+- `export API_KEY=your_key` (Ключ API можно получить на  [сайте](iexcloud.io/cloud-login#/register/))
 - `flask run`
 
 
